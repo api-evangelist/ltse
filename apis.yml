@@ -1,8 +1,25 @@
 aid: ltse
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ltse.png
 name: LTSE
-description: LTSE is a company surfaced as a portfolio company of a16z, initialized-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: The Long-Term Stock Exchange (LTSE) is a U.S. national securities exchange, approved by the
+  SEC, built to help companies and investors focus on long-term value creation over short-term results.
+  LTSE operates a stock exchange and trading platform with listing standards organized around five
+  long-term principles covering stakeholders, strategy, executive compensation, board governance, and
+  investor engagement. The company also publishes market and governance insights and produces The Eric
+  Ries Show podcast. LTSE previously offered a cap-table management product (LTSE Equity, formerly
+  Captable.io) which has since been sunset and transitioned to Astrella. LTSE exposes no public developer
+  API, SDK, or developer portal; this profile captures its public web and security posture.
 url: https://raw.githubusercontent.com/api-evangelist/ltse/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Stock Exchange
+- Capital Markets
+- Financial Services
+- Governance
+- Long-Term Investing
+- Trading
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: https://ltse.com/
+- type: Blog
+  url: https://ltse.com/insights
+- type: TermsOfService
+  url: https://ltse.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://ltse.com/privacy-policy
+- type: DomainSecurity
+  url: security/ltse-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
