@@ -1,0 +1,27 @@
+# Front Door AI Index — ltse — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: ltse
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: ltse.com
+  final_host: ltse.com
+  ownership: own
+  owner: ltse
+  shares_host_with:
+  - long-term-stock-exchange
+  inherited_from: null
+  verdict: scored
+  score: 1
+  host_score: 1
+  density: 1.09
+  words: 915
+  tiers:
+    agentic: 0
+    core: 1
+    model: 0
+  ambiguous: 2
+  top_terms:
+    intelligence: 2
+    AI: 1
